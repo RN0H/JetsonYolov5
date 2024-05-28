@@ -31,7 +31,7 @@ ODT_Flag = False
 cap = cv2.VideoCapture("videos/testvideo.mp4")
 
 if __name__ =="__main__":
-    Trial = True
+    Trial = False
     if Trial:
         while True:
             ret, frame = cap.read()
